@@ -6,8 +6,10 @@
   "description": "Translates Breed Bootloader",
   "browser_specific_settings": {
     "gecko": {
-      "id": "com.github.dmitrmax.webext-breed-translator",
-      "data_collection_permissions": "none",
+      "id": "{299868a5-dd74-4fed-b249-94ef169a2634}",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
     }
   },
   "icons" : {
