@@ -1,0 +1,134 @@
+var dictionary = {
+	"本产品仅供个人免费使用，禁止用于商业目的": "Free for personal use. Commercial use prohibited.",
+	"启用环境变量可以使 Breed 的一些设置能够被修改并保存": "Enable environment varilables can allow Breed to edit/save some specific settings",
+	"请根据当前使用的固件类型，选择合适的位置": "Please pick the correct location based on the firmware type",
+	"错误选择可能损坏固件甚至是 Breed": "Wrong choice can damage the firmware or brick your device",
+	"如果不清楚当前固件的类型，请选择 \\[Breed 内部\\]。": "If you are unsure, choose [Breed internal]",
+	"请仅在十分熟悉固件结构、十分有把握的情况下，使用自定义位置。": "Only choose [Custom] if you are expert",
+    "启用环境变量可以使 Breed 的一些设置能够被修改并保存。": "Enabling environment variables allows certain Breed settings to be modified and saved.",
+    "请根据当前使用的固件类型，选择合适的位置，" : "Please select the appropriate location based on the current firmware type.",
+    "错误选择可能损坏固件甚至是 Breed。": "Selecting the wrong option may damage the firmware or even Breed itself.",
+    "如果不清楚当前固件的类型，请选择 [Breed 内部]。": "If you are unsure of the current firmware type, please select [Breed Internal]",
+	"单击 \\[重启\\] 按钮以重启路由": "Click [Reboot] to reboot the router",
+    "单击 [重启] 按钮以重启路由": "Click the [Reboot] button to restart the router.",
+	"单击按钮备份相应的数据": "Click the corresponding button for backup",
+	"路由正在重启，请耐心等待。": "Router rebooting, please wait.",
+	"路由正在重启": "Router rebooting",
+	"本页面不会自动刷新，请自行检查是否重启成功。": "This page will not be refresh automatically, please check if reboot is successful.",
+    "环境变量设置已成功更新，将在重启后生效。": "Environment variable settings updated successfully.\nChanges take effect after reboot.",
+	"Breed Web 恢复控制台"	: "Breed Web Recovery Console",
+	"内存"		: "RAM",
+	"以太网"	: "Ethernet",
+	"时钟频率"	: "Clock Frequency",
+	"编译日期"	: "Compile Date",
+	"版本"		: "Version",
+	"系统信息"	: "System Info",
+	"请选择正确的固件类型" : "Please select the correct type of firmware",
+	"错误选择可能损坏固件" : "The wrong choice could damage the firmware",
+	"设置当前刷入固件的类型" : "Set the current type of brush into the firmware",
+	"以便于在启动固件时设置特定的参数" : "In order to set specific parameters when starting the firmware",
+	"单击 \\[执行\\] 以恢复出厂设置" : "Click [Execute] to restore factory settings",
+	"固件类型"	: "Firmware Type",
+	"固件更新"	: "Firmware Update",
+    "更新确认": "Update Confirmation",
+    "文件已上传，请确认下方列出的信息": "File uploaded. Please verify the information below:",
+    "类型": "Type",
+    "文件名": "File Name",
+    "MD5 校验": "MD5 Checksum",  
+    "固件": "Firmware",
+	"固件备份"	: "Firmware Backup",
+	"固件启动设置"	: "Firmware Startup Settings",
+	"常规固件"	: "Legacy Firmware",
+    "编程器固件": "Full Flash Firmware",
+	"固件"		: "Firmware",
+	"闪存布局"	: "Flash Layout",
+	"自动重启"	: "Automatic Reboot",
+    "保留现有 Bootloader": "Preserve Existing Bootloader",
+    "保留现有 EEPROM": "Preserve Existing EEPROM",
+	"上传"		: "Upload",
+	"执行"		: "Execute",
+	"保存"		: "Save",
+	"编程器"	: "Programmer ",
+    "斐讯 (0xA0000)": "Phicomm (0xA0000)",
+    "公版 (0x50000)": "Generic (0x50000)",
+    "精简 (0x40000)": "Compact (0x40000)",
+	"公版"		: "Generic",
+	"精简"		: "Compact",
+	"备份"		: "Backup",
+	"小米"		: "Xiaomi",
+	"频率设置"	: "Frequency Setting",
+	"提示"		: "Attention",
+	"如果超频后无法开机": "If boot failed after overclocking",
+	"请按住复位键再通电": "press and hold the reset button, then power on",
+	"系统将以默认频率启动": "the system will start with default frequency",
+	"恢复出厂设置"	: "Factory Reset",
+	"地址修改"	: "Address Modification",
+	"修改"		: "Modify",
+	"独立参数"	: "(Variables available to specific brand only)",
+	"重启"		: "Reboot",
+	"按钮以"	: " button to ",
+	"路由"		: " routing",
+	"单击"		: "Click",
+	"修订号"	: "Revision Number",
+	"关于"		: "About",
+	"联系作者"	: "Contact the autor",
+	"保留现有 "	: "Keep existing ",
+	"环境变量编辑": "Edit Environment Variables",
+    "环境变量已被成功更新。": "Environment variables updated successfully.",
+    "字段": "Name",
+    "值": "Value",
+    "删除": "Delete",
+    "添加":        "Add",
+    "MAC 地址修改": "MAC Address Modification",
+	"环境变量设置": "Setting  Environment Variables",
+	" 频率": " Frequency",
+	"时序优化": "Clock Optimization",
+	"选择当前RAM容量值": "Choose RAM size",
+	"或者导致 EEPROM 丢失": " or corrupted EEPROM",
+	"请选择": "Please select",
+	"华硕": "ASUS",
+	"磊科": "Netcore",
+	"原厂": "Official",
+	"请首先启用环境变量再使用本功能": "Please enable enviromnent variables first",
+	"返回": "Back",
+	"控制": "Control",
+	"禁用": "Disable",
+	"启用": "Enable",
+	"位置": "Location",
+	"起始地址": "Start Address",
+    "大小 (字节)": "Size (Bytes)",
+	"大小": "Size",
+	"字节": "Bytes",
+	"设置": "Apply",
+	"自定义": "Custom",
+	"内部": "Internal",
+	"更新": "Update",
+}
+
+function translate() {
+  const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+  let node;
+
+  while(node = walker.nextNode()) {
+    const text = node.nodeValue.trim();
+    if (dictionary[text]) {
+      node.nodeValue = node.nodeValue.replace(text, dictionary[text]);
+    }
+  }
+}
+
+const consoleDiv = document.getElementById("breed_console");
+
+if (consoleDiv) {
+  document.title = "Breed Web Recovery Console";
+
+  translate();
+
+  const observer = new MutationObserver(translate);
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true
+  });
+  
+  console.log("Breed Console detected: Translation active.");
+}
